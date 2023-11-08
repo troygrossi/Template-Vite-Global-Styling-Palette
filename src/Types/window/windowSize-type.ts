@@ -1,0 +1,13 @@
+export enum WINDOW_SIZE {
+    DESKTOP = "DESKTOP",
+    TABLET_BIG = "TABLET_BIG",
+    TABLET_SMALL = "TABLET_SMALL",
+    MOBILE = "MOBILE",
+}
+
+export enum WINDOW_THRESHOLD {
+    DESKTOP = 1281,
+    TABLET_BIG = 1280,
+    TABLET_SMALL = 768,
+    MOBILE = 480
+}
